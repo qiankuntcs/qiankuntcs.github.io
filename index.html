@@ -1,80 +1,23 @@
 <!DOCTYPE html>
-<!-- saved from url=(0082)file:///Users/shinnkunikaidou/Desktop/Tmp/hugo/Hugo%20Theme%20Stack%20Starter.html -->
 <html lang="en-us" dir="ltr" data-scheme="light">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script
-      src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js"
-      id="argent-x-extension"
-      data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"
-    ></script>
-    <script
-      src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js"
-      id="argent-x-extension"
-      data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"
-    ></script>
-
     <meta name="generator" content="Hugo 0.93.2" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta
-      name="description"
-      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    />
     <title>Qiankun's Homepage</title>
     <link rel="canonical" href="https://qiankuntcs.github.io/" />
-    <link
-      rel="stylesheet"
-      href="./Qiankun&#39;s Homepage_files/style.min.css"
-    />
-    <meta property="og:title" content="Hugo Theme Stack Starter" />
-    <meta
-      property="og:description"
-      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    />
+    <link rel="stylesheet" href="./files/style.min.css" />
     <meta property="og:url" content="https://qiankuntcs.github.io/" />
     <meta property="og:site_name" content="Hugo Theme Stack Starter" />
     <meta property="og:type" content="website" />
     <meta property="og:updated_time" content=" 2022-03-06T00:00:00+00:00 " />
     <meta name="twitter:title" content="Hugo Theme Stack Starter" />
-    <meta
-      name="twitter:description"
-      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    />
     <link
       rel="alternate"
       type="application/rss+xml"
       href="https://qiankuntcs.github.io/index.xml"
     />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2(1)"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2(2)"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2(3)"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2(4)"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link
-      href="./Qiankun&#39;s Homepage_files/css2(5)"
-      type="text/css"
-      rel="stylesheet"
-    />
+    <link href="./files/css2" type="text/css" rel="stylesheet" />
   </head>
   <body style="transition: background-color 0.3s ease 0s">
     <script>
@@ -93,6 +36,7 @@
           : (document.documentElement.dataset.scheme = "light");
       })();
     </script>
+    
     <div class="container main-container flex on-phone--column extended">
       <aside class="sidebar left-sidebar sticky">
         <button
@@ -107,18 +51,32 @@
         </button>
         <header>
           <figure class="site-avatar">
-            <a href="https://qiankuntcs.github.io/">
-              <img
-                alt="Avatar"
-                loading="lazy"
-                class="site-logo"
-                height="300"
-                width="300"
-                src="./Qiankun&#39;s Homepage_files/abab.png"
-              />
-            </a>
-            <span class="emoji">🍥</span>
+            <img
+              alt="Avatar"
+              loading="lazy"
+              class="site-logo"
+              height="300"
+              width="300"
+              src="./files/abab.png"
+              id="avatar"
+            />
           </figure>
+          <script>
+            function handleHoverIn(event) {
+              console.log("test")
+              event.target.src = "./files/zhang.png";
+            }
+      
+            function handleHoverOut(event) {
+              event.target.src = "./files/abab.png";
+            }
+            (function () {
+              let id = document.getElementById("avatar");
+              console.log("abba")
+              id.addEventListener("mouseover", handleHoverIn);
+              id.addEventListener("mouseout", handleHoverOut);
+            })();
+          </script>
           <div class="site-meta">
             <h1 class="site-name">
               <a href="https://qiankuntcs.github.io/">Qiankun Zhang 张乾坤</a>
@@ -174,7 +132,7 @@
             <header class="article-header">
               <div class="article-image">
                 <img
-                  src="./Qiankun&#39;s Homepage_files/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg"
+                  src="./files/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg"
                   srcset="
                     https://demo.stack.jimmycai.com/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg  800w,
                     https://demo.stack.jimmycai.com/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg 1600w
@@ -449,16 +407,7 @@
         </section>
       </aside>
     </div>
-    <script
-      src="http://127.0.0.1:5500/files/vibrant.min.js"
-      integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./Qiankun&#39;s Homepage_files/main.js"
-      defer=""
-    ></script>
+    <script type="text/javascript" src="./files/main.js" defer=""></script>
     <script>
       (function () {
         const e = document.createElement("link");
@@ -472,60 +421,8 @@
     <script
       defer=""
       data-domain="demo.stack.jimmycai.com"
-      src="./Qiankun&#39;s Homepage_files/include.js"
+      src="./files/include.js"
     ></script>
-    <!-- Code injected by live-server -->
-    <script>
-      // <![CDATA[  <-- For SVG support
-      if ("WebSocket" in window) {
-        (function () {
-          function refreshCSS() {
-            var sheets = [].slice.call(document.getElementsByTagName("link"));
-            var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i < sheets.length; ++i) {
-              var elem = sheets[i];
-              var parent = elem.parentElement || head;
-              parent.removeChild(elem);
-              var rel = elem.rel;
-              if (
-                (elem.href && typeof rel != "string") ||
-                rel.length == 0 ||
-                rel.toLowerCase() == "stylesheet"
-              ) {
-                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
-                elem.href =
-                  url +
-                  (url.indexOf("?") >= 0 ? "&" : "?") +
-                  "_cacheOverride=" +
-                  new Date().valueOf();
-              }
-              parent.appendChild(elem);
-            }
-          }
-          var protocol =
-            window.location.protocol === "http:" ? "ws://" : "wss://";
-          var address =
-            protocol + window.location.host + window.location.pathname + "/ws";
-          var socket = new WebSocket(address);
-          socket.onmessage = function (msg) {
-            if (msg.data == "reload") window.location.reload();
-            else if (msg.data == "refreshcss") refreshCSS();
-          };
-          if (
-            sessionStorage &&
-            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
-          ) {
-            console.log("Live reload enabled.");
-            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
-          }
-        })();
-      } else {
-        console.error(
-          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
-        );
-      }
-      // ]]>
-    </script>
 
     <div style="all: initial">
       <div id="__hcfy__" style="all: initial">
