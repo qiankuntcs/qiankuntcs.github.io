@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="This paper proposes a feature-only partition and optimized communication planning approach to expedite distributed GNN training.">
+  <meta property="og:description" content="Feature-only partition of large graph data in distributed Graph Neural Network (GNN) training offers advantages over commonly adopted graph structure partition, such as minimal graph preprocessing cost and elimination of cross-worker subgraph sampling burdens. Nonetheless, performance bottle-neck of GNN training with feature-only partitions still largely lies in the substantial communication overhead due to cross-worker feature fetching. To reduce the communication overhead and expedite distributed training, we first investigate and answer two key questions on convergence behaviors of GNN model in feature-partition based distribute GNN training: 1) As no worker holds a complete copy of each feature, can gradient exchange among workers compensate for the information loss due to incomplete local features? 2) If the answer to the first question is negative, is feature fetching in every training iteration of the GNN model necessary to ensure model convergence? Based on our theoretical findings on these questions, we derive an optimal communication plan that decides the frequency for feature fetching during the training process, taking into account bandwidth levels among workers and striking a balance between model loss and training time. Extensive evaluation demonstrates consistent results with our theoretical analysis, and the effectiveness of our proposed design.">
 
 
 
@@ -275,7 +275,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Expediting distributed GNN training with feature-only partition and optimized communication planning">
-    <meta itemprop="description" content="This paper proposes a feature-only partition and optimized communication planning approach to expedite distributed GNN training.">
+    <meta itemprop="description" content="Feature-only partition of large graph data in distributed Graph Neural Network (GNN) training offers advantages over commonly adopted graph structure partition, such as minimal graph preprocessing cost and elimination of cross-worker subgraph sampling burdens. Nonetheless, performance bottle-neck of GNN training with feature-only partitions still largely lies in the substantial communication overhead due to cross-worker feature fetching. To reduce the communication overhead and expedite distributed training, we first investigate and answer two key questions on convergence behaviors of GNN model in feature-partition based distribute GNN training: 1) As no worker holds a complete copy of each feature, can gradient exchange among workers compensate for the information loss due to incomplete local features? 2) If the answer to the first question is negative, is feature fetching in every training iteration of the GNN model necessary to ensure model convergence? Based on our theoretical findings on these questions, we derive an optimal communication plan that decides the frequency for feature fetching during the training process, taking into account bandwidth levels among workers and striking a balance between model loss and training time. Extensive evaluation demonstrates consistent results with our theoretical analysis, and the effectiveness of our proposed design.">
     <meta itemprop="datePublished" content="May 01, 2024">
     
 
@@ -288,20 +288,20 @@
         
         
         
-          <p>Published in <i>IEEE International Conference on Computer Communications (INFOCOM 2024)</i>, 2024 </p>
+          <p><i>IEEE International Conference on Computer Communications <b>(INFOCOM 2024)</b></i></p>
             
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>This paper proposes a feature-only partition and optimized communication planning approach to expedite distributed GNN training.</p>
+        <p>Feature-only partition of large graph data in distributed Graph Neural Network (GNN) training offers advantages over commonly adopted graph structure partition, such as minimal graph preprocessing cost and elimination of cross-worker subgraph sampling burdens. Nonetheless, performance bottle-neck of GNN training with feature-only partitions still largely lies in the substantial communication overhead due to cross-worker feature fetching. To reduce the communication overhead and expedite distributed training, we first investigate and answer two key questions on convergence behaviors of GNN model in feature-partition based distribute GNN training: 1) As no worker holds a complete copy of each feature, can gradient exchange among workers compensate for the information loss due to incomplete local features? 2) If the answer to the first question is negative, is feature fetching in every training iteration of the GNN model necessary to ensure model convergence? Based on our theoretical findings on these questions, we derive an optimal communication plan that decides the frequency for feature fetching during the training process, taking into account bandwidth levels among workers and striking a balance between model loss and training time. Extensive evaluation demonstrates consistent results with our theoretical analysis, and the effectiveness of our proposed design.</p>
 
 
-        
-          <p style="font-size: smaller">Recommended citation: Bingqian Du, Jun Liu, Ziyue Luo, Chuan Wu, Qiankun Zhang, Hai Jin. (2024). &quot;Expediting distributed GNN training with feature-only partition and optimized communication planning.&quot; <i>IEEE International Conference on Computer Communications (INFOCOM 2024)</i>.<br /><a href="https://ieeexplore.ieee.org/document/yyyyyyy">Download Paper</a></p>
+        <!-- 
+          <p style="font-size: smaller">Recommended citation: Bingqian Du, Jun Liu, Ziyue Luo, Chuan Wu, Qiankun Zhang, Hai Jin. (2024). &quot;Expediting distributed GNN training with feature-only partition and optimized communication planning.&quot; <i>IEEE International Conference on Computer Communications (INFOCOM 2024)</i>.<br /><a href="https://i.cs.hku.hk/~cwu/papers/bqdu-infocom24.pdf">Download Paper</a></p>
         
 
-        
+         -->
       </section>
 
       <footer class="page__meta">
