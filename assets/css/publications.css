@@ -1,0 +1,114 @@
+.section {
+  margin-bottom: 2em;
+  max-width: 350px;
+}
+
+.section h3 {
+  color: #333;
+  border-bottom: 2px solid #5686b0;
+  padding-bottom: 0.3em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
+.section h3 .anchor {
+  text-decoration: none;
+}
+
+.pub-section {
+  margin-left: 1em;
+}
+
+.publication {
+  margin-bottom: 1.8em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed #ddd;
+}
+
+.pub-content {
+  margin-bottom: 1em;
+  max-width: 300px;
+}
+
+.pubtitle {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #000;
+  display: block;
+  margin-bottom: 2em;
+  line-height: 1.5;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.authors {
+  color: #666;
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.venue {
+  color: #444;
+  display: block;
+  margin: 0.4em 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.venue b {
+  color: #2c3e50;
+}
+
+.venue i {
+  color: #666;
+}
+
+.pub-links {
+  display: block;
+  margin-top: 1em;
+  padding-left: 0.2em;
+}
+
+.btn-pub {
+  font-size: 0.85em;
+  padding: 4px 12px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  white-space: nowrap;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.btn-pub:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.fa {
+  margin-right: 3px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin: 0 15px;
+  }
+  
+  .pub-section {
+    margin-left: 0;
+  }
+  
+  .publication {
+    padding: 0 0 1.5em 0;
+  }
+  
+  .pub-content {
+    max-width: 100%;
+  }
+} 
