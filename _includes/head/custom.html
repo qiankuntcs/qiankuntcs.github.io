@@ -12,9 +12,116 @@
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Mobile viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- 强制加载移动端CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}">
+
+<!-- 头像修复样式 - 最高优先级 -->
+<style>
+/* 防止移动端字体自动调整 */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* 触摸滚动优化 */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 强制头像显示 - 覆盖所有其他样式 */
+.author__avatar {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border-radius: 50% !important;
+}
+
+.author__avatar img {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* 桌面端头像样式 - 保持原有设计 */
+@media screen and (min-width: 769px) {
+  .author__avatar {
+    width: 144px !important;
+    height: 144px !important;
+    margin: 0 auto 1em !important;
+    border: 3px solid #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  }
+  
+  .author__avatar img {
+    border: 3px solid #fff !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .author__avatar {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0 auto 1em !important;
+    border: none !important;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1) !important;
+  }
+  
+  .author__avatar img {
+    border: none !important;
+  }
+  
+  .author__content {
+    text-align: center !important;
+  }
+  
+  .sidebar {
+    position: static !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-bottom: 1em !important;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .author__avatar {
+    width: 100px !important;
+    height: 100px !important;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+  }
+  
+  .author__avatar img {
+    border: none !important;
+  }
+}
+
+/* 确保图片加载 */
+.author__avatar img[src=""],
+.author__avatar img:not([src]),
+.author__avatar img[src="#"] {
+  background: #e3e3e3 !important;
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23999"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>') !important;
+  background-size: 50% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+</style>
 
 <!-- end custom head snippets -->

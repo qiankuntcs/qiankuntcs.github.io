@@ -47,6 +47,70 @@ $caption-font-family        : $serif;
    Breakpoints
    ========================================================================== */
 
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .page__content {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0.5em;
+  }
+  
+  .sidebar {
+    position: static !important;
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+  
+  .author__content {
+    text-align: center;
+  }
+  
+  .author__avatar {
+    display: block;
+    margin: 0 auto 1em;
+  }
+  
+  .site-nav {
+    font-size: 0.9em;
+  }
+  
+  .site-nav ul {
+    flex-direction: column;
+  }
+  
+  // 按钮触摸优化
+  .btn, button, input[type="submit"] {
+    min-height: 44px;
+    padding: 0.6em 1.2em;
+    font-size: 16px; // 防止iOS缩放
+  }
+  
+  // 表格横向滚动
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.3em; }
+  h3 { font-size: 1.1em; }
+  
+  .page {
+    padding: 0.3em;
+  }
+}
+
+
+
+
 @include breakpoint-set("to ems", true);
 
 $small                      : 600px !default;

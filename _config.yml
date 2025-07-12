@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Qiankun Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Research Associate Professor"
-  location         : "Room 518, No. 5 South Building, Huazhong University of Science and Technology, Wuhan, China"
+  bio              : "Associate Professor"
+  location         : #"Huazhong University of Science and Technology, Wuhan, China"
   employer         : "Huazhong University of Science and Technology"
   uri              : # URL
   email            : "qiankun[at]hust[dot]edu[dot]cn" 
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "qiankuntcs"
+  github           : #"qiankuntcs"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -118,7 +118,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true    # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -157,6 +157,8 @@ include:
   - .htaccess
   - _pages
   - files
+  - .well-known
+  - assets/css/mobile.css
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -351,3 +353,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+mobile:
+  responsive: true
+  touch_friendly: true
+
+viewport: "width=device-width, initial-scale=1.0"

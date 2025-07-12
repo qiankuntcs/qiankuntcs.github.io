@@ -1,0 +1,122 @@
+/* Mobile-first responsive design */
+
+/* 强制头像显示 - 应用于所有屏幕 */
+.author__avatar {
+  display: block !important;
+  position: relative !important;
+  width: 144px !important;
+  height: 144px !important;
+  margin: 0 auto 1em !important;
+}
+
+.author__avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  display: block !important;
+}
+
+/* 移动端特定调整 */
+@media screen and (max-width: 768px) {
+  /* Layout adjustments */
+  .page__inner-wrap {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  /* Sidebar 强制显示 */
+  .sidebar {
+    position: static !important;
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-bottom: 1em !important;
+    display: block !important;
+  }
+  
+  .sidebar.sticky {
+    position: static !important;
+  }
+  
+  /* Author content居中 */
+  .author__content {
+    text-align: center !important;
+    margin-top: 1em !important;
+  }
+  
+  /* 移动端头像调整 */
+  .author__avatar {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0 auto 1em !important;
+  }
+  
+  /* Navigation improvements */
+  .masthead__inner-wrap {
+    padding: 0.5em 1em;
+  }
+  
+  .greedy-nav {
+    background: #fff;
+  }
+  
+  .greedy-nav__toggle {
+    display: block;
+  }
+  
+  /* Content spacing */
+  .page__content {
+    margin-top: 1em;
+  }
+  
+  /* Image responsiveness */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Typography adjustments */
+  .page__title {
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Small screen optimizations */
+  .masthead__inner-wrap {
+    padding: 0.3em 0.5em;
+  }
+  
+  .page__inner-wrap {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  .page__title {
+    font-size: 1.2em;
+  }
+  
+  /* 小屏幕头像调整 */
+  .author__avatar {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+/* 头像加载失败时的备用样式 */
+.author__avatar img[src=""],
+.author__avatar img:not([src]),
+.author__avatar img[src="#"],
+.author__avatar img {
+  min-width: 100px;
+  min-height: 100px;
+  background: #f0f0f0;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzk5OSI+PHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPjwvc3ZnPg==');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
