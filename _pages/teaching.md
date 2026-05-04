@@ -180,7 +180,7 @@ author_profile: true
 
 <div class="teaching-container">
 <div class="award-highlight">
-    <h2>I was awarded the Teaching Excellence Prize at HUST, and the Teaching Star at CSE.</h2>
+    <h2>I won the Grand Prize at the Hubei Province University Faculty Teaching Innovation Competition.</h2>
 </div>
 <div class="award-highlight">
     <h2>I was awarded the Teaching Excellence Prize at HUST, and the Teaching Star at CSE.</h2>

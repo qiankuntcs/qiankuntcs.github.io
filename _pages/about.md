@@ -259,8 +259,8 @@ redirect_from:
     <div class="news-date">Jan 2026</div>
     <div class="news-content">
       Two papers were accepted to <span class="conference-name">WWW 2026</span>:<br>
-      ▶ "Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration" with Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, and Dandan Zheng;<br>
-      ▶ "Automated Model Selection for Multivariate Time Series Forecasting" with Xiaoxuan Fan, Jiaqi Sun, Xianjun Deng, Wei Xiang, Shenghao Liu, and Lingzhi Yi.
+      ▶ "<a href="https://dl.acm.org/doi/10.1145/3774904.3792214" target="_blank">Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration</a>" with Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, and Dandan Zheng;<br>
+      ▶ "<a href="https://dl.acm.org/doi/abs/10.1145/3774904.3792332" target="_blank">Automated Model Selection for Multivariate Time Series Forecasting</a>" with Xiaoxuan Fan, Jiaqi Sun, Xianjun Deng, Wei Xiang, Shenghao Liu, and Lingzhi Yi.
     </div>
   </div>
 

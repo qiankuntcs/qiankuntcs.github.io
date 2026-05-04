@@ -318,7 +318,7 @@ author_profile: true
 
 <div class="publication-entry">
   <div class="publication-title">
-    <a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration</a>
+    <a href="https://dl.acm.org/doi/10.1145/3774904.3792214" target="_blank">Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration</a>
   </div>
   <div class="publication-authors">
     ‡ Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, <b>Qiankun Zhang</b>, Dandan Zheng
@@ -334,7 +334,7 @@ author_profile: true
 
 <div class="publication-entry">
   <div class="publication-title">
-    <a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Automated Model Selection for Multivariate Time Series Forecasting</a>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3774904.3792332" target="_blank">Automated Model Selection for Multivariate Time Series Forecasting</a>
   </div>
   <div class="publication-authors">
     ‡ Xiaoxuan Fan, Jiaqi Sun, Xianjun Deng, <b>Qiankun Zhang</b>, Wei Xiang, Shenghao Liu, Lingzhi Yi
@@ -472,7 +472,6 @@ author_profile: true
   </div>
   <div class="publication-tags">
     <span class="paper-tag">paper</span>
-    <span class="research-tag trustworthy-ml">TrustworthyML</span>
   </div>
 </div>
 
