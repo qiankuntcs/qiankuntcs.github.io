@@ -263,7 +263,7 @@ author_profile: true
   </div>
   <div class="publication-tags">
     <span class="paper-tag">paper</span>
-    <span class="research-tag ai4tcs">AI4TCS</span>
+    <!-- <span class="research-tag ai4tcs">AI4TCS</span> -->
   </div>
 </div>
 
@@ -279,7 +279,7 @@ author_profile: true
   </div>
   <div class="publication-tags">
     <span class="paper-tag">paper</span>
-    <span class="research-tag ai4tcs">AI4TCS</span>
+    <!-- <span class="research-tag ai4tcs">AI4TCS</span> -->
   </div>
 </div>
 
