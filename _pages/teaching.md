@@ -186,7 +186,7 @@ author_profile: true
     <h2>I was awarded the Teaching Excellence Prize at HUST, and the Teaching Star at CSE.</h2>
 
   </div>
-
+  <h2 class="section-header">For Undergraduate</h2>
   
   <div class="course-section undergraduate">
     <h3 class="course-title">Mathematical Foundations of Information Security</h3>
