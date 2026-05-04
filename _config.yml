@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Qiankun Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor"
+  bio              : "Associate Professor, Assistant Dean"
   location         : #"Huazhong University of Science and Technology, Wuhan, China"
   employer         : "Huazhong University of Science and Technology"
   uri              : # URL
@@ -36,6 +36,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=YqbfE2YAAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-8034-2689"
+  dblp             : "https://dblp.org/pid/177/7467-1.html"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL

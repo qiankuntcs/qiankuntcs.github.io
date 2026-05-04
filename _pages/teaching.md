@@ -181,8 +181,12 @@ author_profile: true
 <div class="teaching-container">
 <div class="award-highlight">
     <h2>I was awarded the Teaching Excellence Prize at HUST, and the Teaching Star at CSE.</h2>
+</div>
+<div class="award-highlight">
+    <h2>I was awarded the Teaching Excellence Prize at HUST, and the Teaching Star at CSE.</h2>
+
   </div>
-  <h2 class="section-header">For Undergraduate</h2>
+
   
   <div class="course-section undergraduate">
     <h3 class="course-title">Mathematical Foundations of Information Security</h3>
@@ -193,8 +197,17 @@ author_profile: true
       <span class="semester">Spring 2023</span>
       <span class="semester">Spring 2024</span>
       <span class="semester">Spring 2025</span>
+      <span class="semester">Spring 2026</span>
     </div>
  
+  </div>
+
+  <div class="course-section undergraduate">
+    <h3 class="course-title">Data and Content Security</h3>
+    <div class="semesters">
+      <span class="semester">Spring 2026</span>
+    </div>
+
   </div>
 
   <div class="course-section undergraduate">

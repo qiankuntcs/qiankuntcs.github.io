@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e5]:
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Qiankun Zhang" [ref=e8] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e9]:
+        - link "Publications" [ref=e10] [cursor=pointer]:
+          - /url: /publications/
+      - listitem [ref=e11]:
+        - link "Teaching" [ref=e12] [cursor=pointer]:
+          - /url: /teaching/
+      - listitem [ref=e13]:
+        - link "Group" [ref=e14] [cursor=pointer]:
+          - /url: /group/
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - img "Qiankun Zhang" [ref=e19]
+      - generic [ref=e20]:
+        - heading "Qiankun Zhang" [level=3] [ref=e21]
+        - paragraph [ref=e22]: Associate Professor
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - generic [ref=e26]: 
+          - text: Huazhong University of Science and Technology
+        - listitem [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: 
+            - text: qiankun[at]hust[dot]edu[dot]cn
+        - listitem [ref=e30]:
+          - link " Google Scholar" [ref=e31] [cursor=pointer]:
+            - /url: https://scholar.google.com/citations?user=YqbfE2YAAAAJ
+            - generic [ref=e32]: 
+            - text: Google Scholar
+        - listitem [ref=e33]:
+          - link " ORCID" [ref=e34] [cursor=pointer]:
+            - /url: https://orcid.org/0000-0002-8034-2689
+            - generic [ref=e35]: 
+            - text: ORCID
+    - article [ref=e36]:
+      - generic [ref=e37]:
+        - heading "Qiankun Zhang 张乾坤" [level=1] [ref=e39]
+        - generic [ref=e40]:
+          - paragraph [ref=e42]:
+            - text: I am currently an Associate Professor at the School of Cyber Science and Engineering (CSE) at Huazhong University of Science and Technology (HUST). Prior to joining HUST, I obtained my Ph.D. from the University of Hong Kong (HKU) in 2021, under the supervision of
+            - link "Zhiyi Huang" [ref=e43] [cursor=pointer]:
+              - /url: https://i.cs.hku.hk/~zhiyi/
+            - text: ", where I received the Lee Shau Kee Postgraduate Fellowship and the Y S & Christabel Lung Postgraduate Scholarship. Before that, I obtained my B.E. from the Chu Kochen Honors College at Zhejiang University (ZJU) in 2017, where I was awarded the Dean's Scholarship. I have also been selected for Overseas High-level Talents in Hubei Province, Wuhan Young Talents, East Lake Young Talents, and the CCF-DiDi GAIA Scholars program."
+          - generic [ref=e44]:
+            - heading "Research Interests" [level=3] [ref=e45]
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - text: ▶
+                - strong [ref=e48]: "Theoretical Computer Science (TCS):"
+                - text: with a particular emphasis on the design and analysis of algorithms with provable theoretical guarantees;
+              - listitem [ref=e49]:
+                - text: ▶
+                - strong [ref=e50]: "Trustworthy Machine Learning (TrustworthyML):"
+                - text: focusing on the explainability, fairness, and privacy of machine learning methods;
+              - listitem [ref=e51]: "▶ My Recent Interests – AI4TCS: exploring the potential of AI-enhanced approaches to advance our understanding and solution of combinatorial optimization problems."
+          - generic [ref=e52]:
+            - heading "Recent News" [level=2] [ref=e53]
+            - generic [ref=e54]:
+              - generic [ref=e55]: Jun 2025
+              - generic [ref=e56]: I was selected for CCF-DiDi GAIA Scholars program. Great thanks to CCF and DiDi!
+            - generic [ref=e57]:
+              - generic [ref=e58]: May 2025
+              - generic [ref=e59]:
+                - text: "Two papers were accepted to ICML 2025:"
+                - text: ▶ "
+                - link "Understanding the unfairness in network quantization" [ref=e60] [cursor=pointer]:
+                  - /url: Understanding the unfairness in network quantization
+                - text: "\" with Bing Liu, Wenjun Miao, Boyu Zhang, Bin Yuan, Jing Wang, Shenghao Liu, and Xianjun Deng;"
+                - text: ▶ "
+                - 'link "DiMa: understanding the hardness of online matching problems via diffusion models" [ref=e61] [cursor=pointer]':
+                  - /url: https://icml.cc/virtual/2025/poster/45746
+                - text: "\" with Boyu Zhang, Aocheng Shen, Bing Liu, Bin Yuan, Jing Wang, Shenghao Liu, and Xianjun Deng."
+            - generic [ref=e62]:
+              - generic [ref=e63]: Apr 2025
+              - generic [ref=e64]:
+                - text: One paper was accepted to PVLDB 2025. "
+                - 'link "PipeTGL: (near) zero bubble memory-based temporal graph neural network training via pipeline optimization" [ref=e65] [cursor=pointer]':
+                  - /url: "#"
+                - text: "\" with Jun Liu, Bingqian Du, Ziyue Luo, Sitian Lu, and Hai Jin."
+            - generic [ref=e66]:
+              - generic [ref=e67]: Jul 2024
+              - generic [ref=e68]:
+                - text: One paper was accepted to CCS 2024. "
+                - 'link "Membership inference attacks against vision transformers: mosaic MixUp training to the defense" [ref=e69] [cursor=pointer]':
+                  - /url: https://dl.acm.org/doi/10.1145/3658644.3690268
+                - text: "\" with Boyu Zhang, Di Yuan, Bin Yuan, and Bingqian Du."
+            - generic [ref=e70]:
+              - generic [ref=e71]: May 2024
+              - generic [ref=e72]:
+                - text: One paper was accepted to ICML 2024 (Oral) "
+                - 'link "Online matching with stochastic rewards: provable better bound via adversarial reinforcement learning" [ref=e73] [cursor=pointer]':
+                  - /url: "Online matching with stochastic rewards: provable better bound via adversarial reinforcement learning"
+                - text: "\" with Aocheng Shen, Boyu Zhang, Hanrui Jiang, Bingqian Du."
+            - generic [ref=e74]:
+              - generic [ref=e75]: Apr 2024
+              - generic [ref=e76]:
+                - text: "Two papers were accepted to SICOMP:"
+                - text: ▶ "
+                - link "AdWords in a panorama" [ref=e77] [cursor=pointer]:
+                  - /url: https://epubs.siam.org/doi/abs/10.1137/22M1478896
+                - text: "\" with Zhiyi Huang and Yuhao Zhang;"
+                - text: ▶ "
+                - 'link "Online primal dual meets online matching with stochastic rewards: configuration LP to the rescue" [ref=e78] [cursor=pointer]':
+                  - /url: https://epubs.siam.org/doi/10.1137/21M1454705
+                - text: "\" with Zhiyi Huang."
+          - generic [ref=e79]:
+            - strong [ref=e80]: Recruiting Students!
+            - text: I regularly have 1 Ph.D. position and 3 M.S. positions available each year. If you are interested in working with me, please feel free to email me with your CV. Undergraduate research interns are also welcome.
+  - contentinfo [ref=e82]

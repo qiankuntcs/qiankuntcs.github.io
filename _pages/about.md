@@ -24,6 +24,10 @@ redirect_from:
   margin-bottom: 0;
 }
 
+.intro-section p + p {
+  margin-top: 0.9em;
+}
+
 .research-interests {
   background: white;
   padding: 1.2em;
@@ -225,7 +229,8 @@ redirect_from:
 </style>
 
 <div class="intro-section">
-  <p>I am currently an Associate Professor at the School of Cyber Science and Engineering (CSE) at Huazhong University of Science and Technology (HUST). Prior to joining HUST, I obtained my Ph.D. from the University of Hong Kong (HKU) in 2021, under the supervision of <a href="https://i.cs.hku.hk/~zhiyi/" target="_blank">Zhiyi Huang</a>, where I received the Lee Shau Kee Postgraduate Fellowship and the Y S & Christabel Lung Postgraduate Scholarship. Before that, I obtained my B.E. from the Chu Kochen Honors College at Zhejiang University (ZJU) in 2017, where I was awarded the Dean's Scholarship. I have also been selected for Overseas High-level Talents in Hubei Province, Wuhan Young Talents, East Lake Young Talents, and the CCF-DiDi GAIA Scholars program.</p>
+  <p>I am currently an Associate Professor and the Assistant Dean at the School of Cyber Science and Engineering (CSE) at Huazhong University of Science and Technology (HUST). Prior to joining HUST, I obtained my Ph.D. from the University of Hong Kong (HKU) in 2021, under the supervision of <a href="https://i.cs.hku.hk/~zhiyi/" target="_blank">Zhiyi Huang</a>, where I was supported by the University Postgraduate Fellowship (UPF), the Y. S. &amp; Christabel Lung Postgraduate Scholarship, and the Lee Shau Kee Postgraduate Scholarship. Before that, I earned my B.E. from the Chu Kochen Honors College at Zhejiang University (ZJU) in 2017, where I was awarded the Dean's Scholarship.</p>
+  <p>My research has received the Best Paper Award at IEEE TrustCom 2025 and the Outstanding Paper Award at IEEE AI + Congress 2025. I have been selected for the National High-level Talent Program in Cyberspace Affairs, the Hubei Overseas High-level Talent Program, the Wuhan Outstanding Young Talent Program, the Huawei East Lake Young Scholar Program, and the CCF-DiDi GAIA Scholars Program.</p>
 </div>
 
 <div class="research-interests">
@@ -233,7 +238,7 @@ redirect_from:
   <ul>
     <li><strong>Theoretical Computer Science (TCS):</strong> with a particular emphasis on the design and analysis of algorithms with provable theoretical guarantees;</li>
     <li><strong>Trustworthy Machine Learning (TrustworthyML):</strong> focusing on the explainability, fairness, and privacy of machine learning methods;</li>
-    <li><span class="highlight-new">My Recent Interests</span> – <span class="ai4tcs-emphasis">AI4TCS</span>: exploring the potential of AI-enhanced approaches to advance our understanding and solution of combinatorial optimization problems.</li>
+    <li><strong>My Recent Interests &ndash; AI for TCS (AI4TCS):</strong> exploring the potential of AI-enhanced approaches to advance our understanding and solution of combinatorial optimization problems.</li>
   </ul>
 </div>
 
@@ -241,9 +246,44 @@ redirect_from:
   <h2 class="news-title">Recent News</h2>
   
   <div class="news-item">
+    <div class="news-date">Apr 2026</div>
+    <div class="news-content">
+      Three papers were accepted to <span class="conference-name">ICML 2026</span>:<br>
+      ▶ "InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information" with Jiaze Li, Aocheng Shen, Bing Liu, Boyu Zhang, Xiaoxuan Fan, and Xianjun Deng;<br>
+      ▶ "BEST: Benchmarking Efficiency in Space and Time for LLM-Generated Code" with Aocheng Shen, Boyu Zhang, Jiaze Li, Ruixuan Ma, Jing Wang, Bin Yuan, Shenghao Liu, and Xianjun Deng;<br>
+      ▶ "FairMerging: Rethinking Model Merging through the Lens of Fairness" with Bing Liu, Xinrui Shan, Boyu Zhang, Bin Yuan, Jing Wang, and Xianjun Deng.
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jan 2026</div>
+    <div class="news-content">
+      Two papers were accepted to <span class="conference-name">WWW 2026</span>:<br>
+      ▶ "<a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration</a>" with Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, and Dandan Zheng;<br>
+      ▶ "<a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Automated Model Selection for Multivariate Time Series Forecasting</a>" with Xiaoxuan Fan, Jiaqi Sun, Xianjun Deng, Wei Xiang, Shenghao Liu, and Lingzhi Yi.
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Dec 2025</div>
+    <div class="news-content">
+      One paper was accepted to <span class="conference-name">NSDI 2026</span>. "<a href="https://www.usenix.org/conference/nsdi26/presentation/liu-huan" target="_blank">From Intention to Practice: Towards Systematic Validation of NIDS Rule Enforcement</a>" with Huan Liu, Haoyu Chen, Biang Xu, Jingyao Zhou, Bin Yuan, Deqing Zou, and Hai Jin.
+    </div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">Jun 2025</div>
     <div class="news-content">
       I was selected for <span class="conference-name">CCF-DiDi GAIA Scholars program</span>. Great thanks to CCF and DiDi!
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Jun 2025</div>
+    <div class="news-content">
+      Two papers received <span class="conference-name">Best/Outstanding Paper Awards</span>:<br>
+      ▶ "<a href="https://dblp.org/rec/conf/trustcom/WangYDZFY25" target="_blank">APER: An Efficient and Privacy-Preserving Scheme for E-Health Recommendations</a>" received the <b>Best Paper Award</b> at <span class="conference-name">TrustCom 2025</span>;<br>
+      ▶ "<a href="#" target="_blank">TLSA: Transfer Learning Enhanced Link Stealing Attacks on Graph Neural Networks</a>" received the <b>Outstanding Paper Award</b> at <span class="conference-name">IEEE AI + Congress 2025</span>.
     </div>
   </div>
 

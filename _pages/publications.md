@@ -249,6 +249,105 @@ author_profile: true
 
 <h2 class="section-title">Conference Publications</h2>
 
+
+
+<div class="publication-entry">
+  <div class="publication-title">
+    InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information
+  </div>
+  <div class="publication-authors">
+    ‡ Jiaze Li, Aocheng Shen, Bing Liu, Boyu Zhang, Xiaoxuan Fan, <b>Qiankun Zhang</b>, Xianjun Deng
+  </div>
+  <div class="publication-venue">
+    43rd International Conference on Machine Learning (ICML 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag ai4tcs">AI4TCS</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    BEST: Benchmarking Efficiency in Space and Time for LLM-Generated Code
+  </div>
+  <div class="publication-authors">
+    ‡ Aocheng Shen⋆ , Boyu Zhang⋆ , Jiaze Li⋆ , Ruixuan Ma⋆ , <b>Qiankun Zhang</b>, Jing Wang, Bin Yuan, Shenghao Liu, Xianjun Deng
+  </div>
+  <div class="publication-venue">
+    43rd International Conference on Machine Learning (ICML 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag ai4tcs">AI4TCS</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    FairMerging: Rethinking Model Merging through the Lens of Fairness
+  </div>
+  <div class="publication-authors">
+    ‡ Bing Liu, Xinrui Shan, Boyu Zhang, <b>Qiankun Zhang</b>, Bin Yuan, Jing Wang, Xianjun Deng
+  </div>
+  <div class="publication-venue">
+    43rd International Conference on Machine Learning (ICML 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
+
+<div class="publication-entry">
+  <div class="publication-title">
+    <a href="https://www.usenix.org/conference/nsdi26/presentation/liu-huan" target="_blank">From Intention to Practice: Towards Systematic Validation of NIDS Rule Enforcement</a>
+  </div>
+  <div class="publication-authors">
+    ‡ Huan Liu, Haoyu Chen, Biang Xu, Jingyao Zhou, Bin Yuan, <b>Qiankun Zhang</b>, Deqing Zou, Hai Jin
+  </div>
+  <div class="publication-venue">
+    23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    <a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Unsupervised Subgraph Anomaly Detection based on Pattern Collaboration</a>
+  </div>
+  <div class="publication-authors">
+    ‡ Jiayang Sun, Shenghao Liu, Xianjun Deng, Wei Xiang, Meng Luo, <b>Qiankun Zhang</b>, Dandan Zheng
+  </div>
+  <div class="publication-venue">
+    The Web Conference (WWW 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    <a href="https://www2026.thewebconf.org/accepted/research-tracks.html" target="_blank">Automated Model Selection for Multivariate Time Series Forecasting</a>
+  </div>
+  <div class="publication-authors">
+    ‡ Xiaoxuan Fan, Jiaqi Sun, Xianjun Deng, <b>Qiankun Zhang</b>, Wei Xiang, Shenghao Liu, Lingzhi Yi
+  </div>
+  <div class="publication-venue">
+    The Web Conference (WWW 2026)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
 <div class="publication-entry">
   <div class="publication-title">
     <a href="https://icml.cc/virtual/2025/poster/43689" target="_blank">Understanding the unfairness in network quantization</a>
@@ -290,6 +389,38 @@ author_profile: true
   </div>
   <div class="publication-venue">
     Proceedings of the VLDB Endowment (PVLDB 2025)
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    <a href="https://dblp.org/rec/conf/trustcom/WangYDZFY25" target="_blank">APER: An Efficient and Privacy-Preserving Scheme for E-Health Recommendations</a>
+  </div>
+  <div class="publication-authors">
+    ‡ Jing Wang, Wenhao Yuan, Xianjun Deng, <b>Qiankun Zhang</b>, Jing Fan, Xue Yuan
+  </div>
+  <div class="publication-venue">
+    2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom 2025) - <b>Best Paper Award</b>
+  </div>
+  <div class="publication-tags">
+    <span class="paper-tag">paper</span>
+    <span class="research-tag trustworthy-ml">TrustworthyML</span>
+  </div>
+</div>
+
+<div class="publication-entry">
+  <div class="publication-title">
+    TLSA: Transfer Learning Enhanced Link Stealing Attacks on Graph Neural Networks
+  </div>
+  <div class="publication-authors">
+    ‡ Zhenkun Jin, Jiaqi Ma, Yuanyuan He, Wei Xiang, <b>Qiankun Zhang</b>, Tao Zhang
+  </div>
+  <div class="publication-venue">
+    IEEE AI + Congress (2025) - <b>Outstanding Paper Award</b>
   </div>
   <div class="publication-tags">
     <span class="paper-tag">paper</span>
